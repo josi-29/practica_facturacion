@@ -1,0 +1,30 @@
+#container {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+body{
+    background: linear-gradient(30deg, rgb(233, 187, 102),rgb(194, 130, 11));
+}
+input[type="text"],input[type="password"]{
+    padding: 2px;
+    border-radius: 20px;
+    height: 50px;
+    background-color: antiquewhite;
+}
+input[type="submit"]{
+    background-color: lime;
+    height: 90px;
+    border-radius: 90px;
+}
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
